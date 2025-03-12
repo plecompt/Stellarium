@@ -1,2 +1,2 @@
-# Projet_Final_Simplon
+# Stellarium
 Projet final de la formation Simplon
