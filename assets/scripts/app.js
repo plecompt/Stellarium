@@ -3,7 +3,7 @@
   scene.background = new THREE.Color(0x000000);
 
   // Créer la caméra
-  const camera = new THREE.PerspectiveCamera(75, 800 / 600, 0.1, 1000);
+  const camera = new THREE.PerspectiveCamera(75, 1200/900, 0.1, 1000);
   camera.position.z = 10;
 
 
@@ -35,7 +35,7 @@
 
 
   // Définir la taille du renderer
-  renderer.setSize(800, 600);
+  renderer.setSize(1200, 900);
 
   // Créer les étoiles
   const stars = [];
